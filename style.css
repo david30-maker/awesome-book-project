@@ -1,5 +1,6 @@
 body {
   padding: 4px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -7,15 +8,14 @@ body {
 }
 
 .p-1 {
-  margin-bottom: 0;
+  margin: 0;
+  font-weight: 200;
 }
 
-.btn {
-  margin-top: 0;
-}
-
-.p-2 {
-  margin-bottom: 0;
+.removeBtn {
+  font-weight: 200;
+  text-align: center;
+  border-radius: 4px;
 }
 
 hr {
@@ -28,9 +28,15 @@ hr {
 
 form input {
   display: block;
-  margin: 5px 0 5px 0;
+  margin: 10px 0 5px 0;
+  font-weight: 200;
+  border-radius: 4px;
 }
 
 .form button {
+  font-weight: 200;
+  margin-top: 5px;
   display: block;
+  text-align: center;
+  border-radius: 4px;
 }
