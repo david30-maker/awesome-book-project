@@ -1,0 +1,33 @@
+body {
+    padding:4px;
+}
+
+.wrapper {
+    margin-left: 30%;
+}
+
+.p-1{
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-top: 0;
+}
+.p-2{
+    margin-bottom: 0;
+}
+
+ hr {
+    margin-right: 70%;
+ }
+.form{
+    width: 60%;
+}
+ form input {
+    display: block;
+    margin: 5px 0 5px 0;
+ }
+
+ .form button {
+    display: block;
+ }
