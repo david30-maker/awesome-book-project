@@ -1,34 +1,3 @@
-/* const isTitle = document.getElementById("#first-name");
-const isAuthor = document.getElementById("#first-name");
-const isButton = document.getElementById(".button-form")
-
-window.onload = () => {
-const  titleWork = [
-    {
-        title: "Jerry and Tommy",
-        author: "Testeroo Testyy",
-        button: "submit",
-
-    },
-
- {
-        title: "Gana book",
-        author: "Art work",
-        button: "submit",
-
-    },
-];
-
-const classGroup = `  <div class="booksAdded">
-    <p class="p-1"></p>
-    <p class="p-1">Art Work</p>
-    <button class="removeBtn" onclick="Display.removeBook()">Remove</button>
-    <hr>
-    </div>
-    </div>`
-
-}
-*/
 const form = document.querySelector('.form');
 const titleInput = document.querySelector('#first-name');
 const authorInput = document.querySelector('#last-name');
@@ -54,8 +23,8 @@ const displayBooks = () => {
   });
   book.innerHTML = display;
 };
-// Supreeti, uncomment this part and push it back
-/*const addBooks = (Title, Author) => {
+
+const addBooks = (Title, Author) => {
   if (Title !== '' && Author !== '') {
     books.push({ title: Title, author: Author });
     localStorage.setItem('books', JSON.stringify(books));
@@ -72,7 +41,7 @@ form.addEventListener('submit', (evt) => {
   const titleValue = titleInput.value;
   const authorValue = authorInput.value;
   addBooks(titleValue, authorValue);
-}); */
+});
 
 /* eslint-disable no-unused-vars */
 // Badru, uncomment this part and push it
