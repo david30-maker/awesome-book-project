@@ -43,9 +43,7 @@ form.addEventListener('submit', (evt) => {
   addBooks(titleValue, authorValue);
 });
 
-/* eslint-disable no-unused-vars */
-// Badru, uncomment this part and push it
-/*const removeBook = (id) => {
+const removeBook = (id) => {
   if (localStorage.getItem('books') == null) {
     books = [];
   } else {
@@ -55,4 +53,4 @@ form.addEventListener('submit', (evt) => {
   books.splice(bookIndex, 1);
   localStorage.setItem('books', JSON.stringify(books));
   displayBooks();
-}; */
+};
