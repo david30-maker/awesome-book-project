@@ -156,11 +156,10 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **BADRU NDAWULA**
+- GitHub: [@badru](https://github.com/PrinceBadru)
+- Twitter: [@badru](https://twitter.com/BadruNdawula)
+- Linkedin: [@badru](https://www.linkedin.com/in/badru-ndawula-930b7b217/)
 
 👤 **Supreeti**
 
