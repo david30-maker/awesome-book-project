@@ -4,18 +4,34 @@ body {
 }
 
 .wrapper {
-  margin-left: 30%;
+  width: 100%;
+  text-align: center;
 }
 
 .p-1 {
-  margin: 0;
-  font-weight: 200;
+  margin-top: 8px;
+  font-weight: 100;
+  margin-right: 70%;
 }
 
-.removeBtn {
-  font-weight: 200;
-  text-align: center;
-  border-radius: 4px;
+.booksAdded {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem 0 0.5rem;
+  width: 40%;
+  border: 1px solid black;
+  margin-left: 30%;
+}
+
+.booksAdded:nth-of-type(odd) {
+  background-color: #d3d3d3;
+  height: 3rem;
+}
+
+.booksAdded:nth-of-type(even) {
+  background-color: #fff;
+  height: 3rem;
 }
 
 hr {
@@ -24,6 +40,7 @@ hr {
 
 .form {
   width: 60%;
+  margin-left: 40%;
 }
 
 form input {
