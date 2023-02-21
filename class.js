@@ -32,8 +32,7 @@ class Book {
       book.innerHTML = display;
     }
   
-    // someone have to uncomment this part.
-    /*static addBook() {
+    static addBook() {
       const titleInput = document.querySelector("#first-name").value;
       const authorInput = document.querySelector("#last-name").value;
       if (titleInput !== "" && authorInput !== "") {
@@ -43,10 +42,10 @@ class Book {
         localStorage.setItem("books", JSON.stringify(books));
         this.displayBooks();
       }
-    } */
+    } 
 
   //someone have to uncomment this part
-    /*static removeBook(id) {
+  /* static removeBook(id) {
       const books = Display.getBooks();
       const bookIndex = books.findIndex((item, i) => i === id);
       books.splice(bookIndex, 1);

@@ -11,10 +11,9 @@ body {
 .p-1 {
   margin-top: 8px;
   font-weight: 100;
+  margin-right: 70%;
   
 }
-
-
 
 /*.booksAdded button {
   font-weight: 100;
@@ -58,6 +57,7 @@ hr {
 
 .form {
   width: 60%;
+  margin-left: 40%;
 }
 
 form input {
