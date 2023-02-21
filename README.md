@@ -1,7 +1,5 @@
 # AWESOME BOOK PROJECT
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -24,8 +22,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [AWESOME BOOK PROJECT] <a name="about-project"></a>
 
 **[AWESOME_BOOK_PROJECT]** 
@@ -40,8 +36,6 @@ using javascript objects.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - **[Display_list_in_Table_form]**
@@ -50,17 +44,12 @@ using javascript objects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -72,94 +61,52 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- In order to run this project you need:
+   - Modern web browser  
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
+- https://github.com/david30-maker/awesome-book-project
+- cd awesome-book-project
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- cd awesome-book-project
+- Double click on the index.html file
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Opkah Igbo**
+
+- GitHub: [@githubhandle](https://github.com/david30-maker)
+- Twitter: [@twitterhandle](https://twitter.com/davidigbo)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dvid-igbo-464196184/)
+
+👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **BADRU NDAWULA**
-- GitHub: [@badru](https://github.com/PrinceBadru)
-- Twitter: [@badru](https://twitter.com/BadruNdawula)
-- Linkedin: [@badru](https://www.linkedin.com/in/badru-ndawula-930b7b217/)
 
 👤 **Supreeti**
 
