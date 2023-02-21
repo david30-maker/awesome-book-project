@@ -4,18 +4,52 @@ body {
 }
 
 .wrapper {
-  margin-left: 30%;
+  width: 100%;
+  text-align: center;
 }
 
 .p-1 {
-  margin: 0;
-  font-weight: 200;
+  margin-top: 8px;
+  font-weight: 100;
+  
 }
 
-.removeBtn {
-  font-weight: 200;
+
+
+/*.booksAdded button {
+  font-weight: 100;
   text-align: center;
   border-radius: 4px;
+  height: 30px;
+  margin-left: 37%;
+  margin-top: 8px;
+}
+
+.booksAdded {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width: 37%;
+} */
+
+.booksAdded {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem 0 0.5rem;
+  width: 40%;
+  border: 1px solid black;
+  margin-left: 30%;
+}
+
+.booksAdded:nth-of-type(odd) {
+  background-color: #d3d3d3;
+  height: 3rem;
+}
+
+.booksAdded:nth-of-type(even) {
+  background-color: #fff;
+  height: 3rem;
 }
 
 hr {
