@@ -4,6 +4,19 @@ class Book {
     this.title = title;
     this.author = author;
   }
+  this.navLinks = document.querySelectorAll('.nav-link');
+this.sections = document.querySelectorAll('.content');
+this.navLinks.forEach((link, index) => {
+  link.addEventListener('click', () => {
+    this.sections.forEach((s, i) => {
+      if (index === i) {
+        s.style.display = 'block';
+      } else {
+        s.style.display = 'none';
+      }
+    });
+  });
+});
 }
 
 const book = document.querySelector('.books');

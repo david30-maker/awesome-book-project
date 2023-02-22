@@ -8,15 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header></header>
-    <div class="wrapper">
-    <h1> Awesome books </h1> 
+<header>
+    <nav class="nav-bar">
+        <h1>Awesome books</h1>
+        <ul class="list-elements">
+            <li id="list-link" class="nav-link list">
+                <a href="#list">List</a>
+            </li>
+            <li id="add-new-link" class="nav-link list">
+                <a href="#add-new">Add new</a>
+            </li>
+            <li id="contact-link" class="nav-link list">
+                <a href="#contact">Contact</a>
+            </li> 
+        </ul>
+    </nav>
+</header>
+    <div id="list" class="wrapper">
+    <h1> Awesome books </h1>
+    <ul id="book-container" class="book-container">
+        <!-- Dynamic book list comes here -->
+    </ul> 
     
 <div class="books">
 
 </div> 
 
-    <form class="form">
+    <form class="form" id="input-form">
     <p class="add p-1">Add a new book</p>
     <input
     type="text"
@@ -37,6 +55,18 @@
     </form>
 
 </div>
+<div id="contact" class="contact-section content">
+    <h2>Contact Information</h2>
+    <p>Do you have any questions or you just want to say hello!<br>You can reach out to us</p>
+    <ul>
+        <li>Email: sksupreetk11@gmail.com</li>
+        <li>Phone number: </li>
+        <li>Address:.</li>
+    </ul>
+</div>
+<footer>
+    <p class="copyright">Copyright... David & Badru & Supreeti</p>
+</footer>
 
     <script src="class.js"></script>
 </body>
