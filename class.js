@@ -24,10 +24,10 @@ class Display {
     let display = '';
     books.forEach((book, i) => {
       display += `
-            <div class="booksAdded">
-            <p>"${book.title}" by ${book.author}</p>
-            <button class="removeBtn" onclick="Display.removeBook(${i})">Remove</button>
-            </div>`;
+          <div class="booksAdded">
+          <p>"${book.title}" by ${book.author}</p>
+          <button class="removeBtn" onclick="Display.removeBook(${i})">Remove</button>
+          </div>`;
     });
     book.innerHTML = display;
   }
