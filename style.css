@@ -1,6 +1,68 @@
 body {
-  padding: 4px;
+  padding: 0;
+  margin: 0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrap-all {
+  border: 3px solid;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.navi-menu {
+  width: 95%;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgray;
+  border: 3px solid;
+  margin: auto;
+}
+
+.nav-list {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.nav-list li {
+  list-style: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.giver {
+  border-right: 2px solid black;
+  height: 1.5rem;
+}
+
+.contact ul li {
+  text-align: left;
+}
+
+.nav-list li:hover {
+  color: aqua;
+}
+
+.calendar {
+  display: flex;
+  justify-content: flex-end;
+  width: 98%;
+}
+
+h2 {
+  width: 60%;
+  padding-left: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .wrapper {
@@ -45,14 +107,14 @@ hr {
 
 form input {
   display: block;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 7%;
   font-weight: 200;
   border-radius: 4px;
 }
 
 .form button {
   font-weight: 200;
-  margin-top: 5px;
+  margin: 5px 0 0 167px;
   display: block;
   text-align: center;
   border-radius: 4px;
@@ -77,4 +139,21 @@ footer {
   background-color: #fff;
   padding: 0.5rem 1rem;
   width: 100%;
+}
+
+.contact {
+  width: 50%;
+  margin: auto;
+}
+
+.contact p {
+  text-align: left;
+}
+
+.rights {
+  width: 90%;
+  border: 2px solid;
+  margin: 3rem auto 0;
+  text-align: left;
+  padding-left: 1rem;
 }
