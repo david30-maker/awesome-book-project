@@ -19,8 +19,8 @@ booksList.addEventListener('click', () => {
   tag.style.display = 'block';
 }); */
 
-//Supreeti, please uncomment this part push it back to github.
-/*addBooks.addEventListener('click', () => {
+
+addBooks.addEventListener('click', () => {
   forms.style.display = 'block';
   books.style.display = 'none';
   contact.style.display = 'none';
@@ -31,4 +31,4 @@ contactInfo.addEventListener('click', () => {
   books.style.display = 'none';
   tag.style.display = 'none';
   contact.style.display = 'block';
-}); */
+}); 
